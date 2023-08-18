@@ -1,0 +1,7 @@
+{
+  "entryPoints": ["src/main.ts"],
+  "out": "docs",
+  "includes": ["src/**/*.ts"],
+}
+
+  

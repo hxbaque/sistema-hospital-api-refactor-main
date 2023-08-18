@@ -1,0 +1,21 @@
+{
+    "type": "postgres",
+    "host": "ep-muddy-leaf-290584-pooler.us-east-1.postgres.vercel-storage.com",
+    "port": 5432,
+    "username": "default",
+    "password": "uk4dEOw1WyDM",
+    "database": "verceldb",
+    "ssl": true,
+    "extra": {
+      "ssl": {
+        "rejectUnauthorized": false
+      }
+    },
+    "sslmode": "require",
+    "entities": ["dist/**/*.entity{.ts,.js}"],
+    "migrations": ["dist/migrations/*{.ts,.js}"],
+    "cli": {
+      "migrationsDir": "src/migrations"
+    }
+  }
+  
